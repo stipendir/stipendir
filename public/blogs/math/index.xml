@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Render Math With Mathjax on Stipendir</title>
-    <link>https://stipendir.github.io/blogs/math/</link>
+    <link>https://stipendir.fr/blogs/math/</link>
     <description>Recent content in Render Math With Mathjax on Stipendir</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Fri, 09 Dec 2022 19:53:33 +0530</lastBuildDate><atom:link href="https://stipendir.github.io/blogs/math/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Dec 2022 19:53:33 +0530</lastBuildDate><atom:link href="https://stipendir.fr/blogs/math/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

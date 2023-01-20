@@ -1,4 +1,4 @@
-baseURL: "https://stipendir.github.io"
+baseURL: "https://stipendir.fr"
 languageCode: "fr-FR"
 title: "Stipendir"
 theme: hugo-profile
@@ -123,7 +123,7 @@ params:
     intro: "15 ans d'expérience à votre service"
     title: "Stipendir"
     subtitle: "Freelance IT"
-    content: "Nous accompagnons votre activité avec nos services de gestion de project IT. <br> Fort de 8 années d'expérience avec l'Espagne, nous proposons un accompagnement dans la mise en place, l'intégration ou la gestion d'équipes hispanophones. <br> Contactez nous !!"
+    content: "Nous accompagnons votre activité avec nos services de gestion et encadrement de project IT. <br>Après 8 années de collaboration avec des entreprises espagnoles, nous souhaitons partager notre expérience dans la mise en place, l'intégration ou la gestion de vos équipes hispanophones. <br> Contactez nous !!"
     #image: /images/hero.svg
     button:
       enable: false
@@ -133,13 +133,15 @@ params:
       newPage: false
     socialLinks:
       fontAwesomeIcons:
-        - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-twitter
-          url: https://example.com
+        #- icon: fab fa-github
+        #  url: https://example.com
+        #- icon: fab fa-twitter
+        #  url: https://example.com
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/charles-henri-dutay/
       customIcons:
         - icon: /fav.png
-          url: "https://example.com"
+          url: "/#contact"
 
   # About
   about:
@@ -342,8 +344,8 @@ params:
   contact:
     enable: true
     title: "Contactez nous"
-    content: Si vous préférez un contact sous forme de rendez-vous consulter notre agenda, sinon écrivez nous, notre boîte mail est toujours ouverte !
-    email: stipendir@gmail.com
+    content: Si vous préférez un contact sous forme de rendez-vous, consultez notre agenda!<br>Sinon écrivez nous, notre boîte mail est toujours ouverte!
+    email: contact@stipendir.fr
     btnName: Mail
     #formspree:
     #  enable: false # `contact.email` value will be ignored
