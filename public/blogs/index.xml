@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Stipendir</title>
+    <title>Blogs on Stipendir - Freelance IT</title>
     <link>https://stipendir.fr/blogs/</link>
-    <description>Recent content in Blogs on Stipendir</description>
+    <description>Recent content in Blogs on Stipendir - Freelance IT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     <lastBuildDate>Fri, 09 Dec 2022 19:53:33 +0530</lastBuildDate><atom:link href="https://stipendir.fr/blogs/index.xml" rel="self" type="application/rss+xml" />

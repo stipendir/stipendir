@@ -1,6 +1,6 @@
 baseURL: "https://stipendir.fr"
 languageCode: "fr-FR"
-title: "Stipendir"
+title: "Stipendir - Freelance IT"
 theme: hugo-profile
 
 outputs:
@@ -58,10 +58,11 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Stipendir"
-  description: Text about my cool site
+  title: "Stipendir - Freelance IT"
+  description: "15 ans d'expérience - Services de gestion et encadrement de project IT - Mise en place, intégration, management d'équipes hispanophones"
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
+  canonical: "https://stipendir.fr"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -123,7 +124,12 @@ params:
     intro: "15 ans d'expérience à votre service"
     title: "Stipendir"
     subtitle: "Freelance IT"
-    content: "Nous accompagnons votre activité avec nos services de gestion et encadrement de project IT. <br>Après 8 années de collaboration avec des entreprises espagnoles, nous souhaitons partager notre expérience dans la mise en place, l'intégration ou la gestion de vos équipes hispanophones. <br> Contactez nous !!"
+    content: |-
+      Nous accompagnons votre activité avec nos services de gestion et encadrement de project IT. 
+      
+      Après 8 années de collaboration avec des entreprises espagnoles, nous souhaitons partager notre expérience dans la mise en place, l'intégration ou la gestion de vos équipes hispanophones. 
+      
+      Contactez nous !!
     #image: /images/hero.svg
     button:
       enable: false
@@ -145,23 +151,26 @@ params:
 
   # About
   about:
-    enable: false
-    title: "About Me"
-    image: "/images/me.png"
+    enable: true
+    title: "A propos"
+    image: "/images/moi.jpg"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
+        After 10 years past in the French Tech ecosystem of Nantes as a IT Consultor, I decided to challenge myself in personal and profesional life. I spent 5 years in Madrid working as Software Team Leader, managing spanish IT Team and improving relation between tech and product people.
+        
+        Back in Nantes, I'm now freelance and I want to share with you my 15 years experience, managing your multicultural teams.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+        Expert in Java environment, I dedicate my spirit to manage and improve the developments processes and methods. 
+
+        As all IT engineer, I love spent times looking for new technologies or methodologies to develop my knowledge and always have the best option.
     skills:
       enable: false
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "Java"
+        - "SQL"
+        - "Spark"
+        - "API"
+        - "Groovy"
 
   # Experience
   experience:
@@ -344,7 +353,9 @@ params:
   contact:
     enable: true
     title: "Contactez nous"
-    content: Si vous préférez un contact sous forme de rendez-vous, consultez notre agenda!<br>Sinon écrivez nous, notre boîte mail est toujours ouverte!
+    content: |-
+        Si vous préférez un contact sous forme de rendez-vous, consultez notre agenda!
+        Sinon écrivez nous, notre boîte mail est toujours ouverte!
     email: contact@stipendir.fr
     btnName: Mail
     #formspree:
