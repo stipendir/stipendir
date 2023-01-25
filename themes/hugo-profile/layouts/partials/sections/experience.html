@@ -3,7 +3,7 @@
     <div class="container">
         <h3 class="text-center">{{ .Site.Params.experience.title | default "Experience" }}</h3>
         <div class="row justify-content-center">
-            <div class="col-sm-12 col-md-8 col-lg-8 py-5">
+            <div class="col-sm-12 col-md-10 col-lg-10 py-5">
                 <div class="experience-container px-3 pt-2">
                     <ul class="nav nav-pills mb-3 bg-transparent" id="pills-tab" role="tablist">
                         {{ range $index, $element := .Site.Params.experience.items }}
@@ -14,11 +14,11 @@
                                 aria-selected="true" 
                                 role="tab" 
                                 data-bs-toggle="pill"
-                                id='{{ replace .company " " "-" }}-{{ replace .date " " "-" }}-tab'
-                                data-bs-target='#pills-{{ replace .company " " "-" }}-{{ replace .date " " "-" }}'
-                                aria-controls='{{ replace .company " " "-" }}-{{ replace .date " " "-" }}' 
+                                id='{{ replace .companyTagName " " "-" }}-{{ replace .date " " "-" }}-tab'
+                                data-bs-target='#pills-{{ replace .companyTagName " " "-" }}-{{ replace .date " " "-" }}'
+                                aria-controls='{{ replace .companyTagName " " "-" }}-{{ replace .date " " "-" }}' 
                             >
-                                {{ .company }}
+                                {{ .companyTagName }}
                             </div>
                         </li>
                         {{ else }}
@@ -28,11 +28,11 @@
                                 aria-selected="true" 
                                 role="tab" 
                                 data-bs-toggle="pill"
-                                id='{{ replace .company " " "-" }}-{{ replace .date " " "-" }}-tab'
-                                data-bs-target='#pills-{{ replace .company " " "-" }}-{{ replace .date " " "-" }}' 
-                                aria-controls='{{ replace .company " " "-" }}-{{ replace .date " " "-" }}'
+                                id='{{ replace .companyTagName " " "-" }}-{{ replace .date " " "-" }}-tab'
+                                data-bs-target='#pills-{{ replace .companyTagName " " "-" }}-{{ replace .date " " "-" }}' 
+                                aria-controls='{{ replace .companyTagName " " "-" }}-{{ replace .date " " "-" }}'
                             >
-                                {{ .company }}
+                                {{ .companyTagName }}
                             </div>
                         </li>
                         {{ end }}
@@ -44,13 +44,14 @@
                         <div 
                             class="tab-pane fade show active bg-transparent" 
                             role="tabpanel"
-                            id='pills-{{ replace .company " " "-" }}-{{ replace .date " " "-" }}'
-                            aria-labelledby='pills-{{ replace .company " " "-" }}-{{ replace .date " " "-" }}-tab'
+                            id='pills-{{ replace .companyTagName " " "-" }}-{{ replace .date " " "-" }}'
+                            aria-labelledby='pills-{{ replace .companyTagName " " "-" }}-{{ replace .date " " "-" }}-tab'
                         >
                             <div>
                                 <span class="h4">{{ .job }}</span>
-                                <small>-</small>
-                                <a href="{{ .companyUrl }}" target="_blank">{{ .company }}</a>
+                                <div class="pb-1">
+                                    <a href="{{ .companyUrl }}" target="_blank">{{ .company }}</a>
+                                </div>
                                 <div class="pb-1">
                                     <small>{{ .date }}</small>
                                     {{ if .info.enable | default true }}
@@ -82,14 +83,14 @@
                         <div 
                             class="tab-pane fade bg-transparent" 
                             role="tabpanel"
-                            id='pills-{{ replace .company " " "-" }}-{{ replace .date " " "-" }}'
-                            aria-labelledby='pills-{{ replace .company " " "-" }}-{{ replace .date " " "-" }}-tab'
+                            id='pills-{{ replace .companyTagName " " "-" }}-{{ replace .date " " "-" }}'
+                            aria-labelledby='pills-{{ replace .companyTagName " " "-" }}-{{ replace .date " " "-" }}-tab'
                         >
                             <div>
                                 <span class="h4">{{ .job }}</span>
-                                <small>-</small>
-                                <a href="{{ .companyUrl }}" target="_blank">{{ .company }}</a>
-                                
+                                <div class="pb-1">
+                                    <a href="{{ .companyUrl }}" target="_blank">{{ .company }}</a>
+                                </div>
                                 <div class="pb-1">
                                     <small>{{ .date }}</small>
                                     {{ if .info.enable | default true }}

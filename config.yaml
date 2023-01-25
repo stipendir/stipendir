@@ -155,13 +155,24 @@ params:
     title: "A propos"
     image: "/images/moi.jpg"
     content: |-
-        After 10 years past in the French Tech ecosystem of Nantes as a IT Consultor, I decided to challenge myself in personal and profesional life. I spent 5 years in Madrid working as Software Team Leader, managing spanish IT Team and improving relation between tech and product people.
-        
-        Back in Nantes, I'm now freelance and I want to share with you my 15 years experience, managing your multicultural teams.
+        Après 10 ans en tant que Consultant IT dans l’écosystème Tech Nantais, j’ai décidé de changer de vie personnelle et professionnelle.
+       
+        J’ai passé 5 ans à Madrid comme Software Team Leader, gérant une équipe IT espagnole et facilitant les relations avec les équipes métier.
 
-        Expert in Java environment, I dedicate my spirit to manage and improve the developments processes and methods. 
+        De retour à Nantes, je suis désormais Freelance IT et je souhaite partager avec vous mes 15 ans d’expérience, notamment en vous accompagnant dans la gestion de vos équipes multiculturelles.
+       
+        Expert Java, j'ai vocation à l’amélioration des processus et méthodes de développement.
 
-        As all IT engineer, I love spent times looking for new technologies or methodologies to develop my knowledge and always have the best option.
+        Comme tout ingénieur IT, j’aime consacrer du temps à la veille technologiques ou méthodologiques pour développer mes connaissances et profiter des meilleures options/solutions possibles.
+
+#    content: |-
+#        After 10 years past in the French Tech ecosystem of Nantes as a IT Consultor, I decided to challenge myself in personal and profesional life. I spent 5 years in Madrid working as Software Team Leader, managing spanish IT Team and improving relation between tech and product people.
+#        
+#        Back in Nantes, I'm now freelance and I want to share with you my 15 years experience, managing your multicultural teams.
+#
+#        Expert in Java environment, I dedicate my spirit to manage and improve the developments processes and methods. 
+#
+#        As all IT engineer, I love spent times looking for new technologies or methodologies to develop my knowledge and always have the best option.
     skills:
       enable: false
       title: "Here are a few technologies I've been working with recently:"
@@ -174,111 +185,218 @@ params:
 
   # Experience
   experience:
-    enable: false
-    # title: "Custom Name"
+    enable: true
+    title: "Expériences"
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
-        featuredLink:
-          enable: false
-          name: "View the project"
-          url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
-        featuredLink:
-          enable: false
-          url: "https://example.com"
+      - job: "Software Team Leader / Project Leader"
+        companyTagName: "Mobilize FS"
+        company: "Mobilize Financial Services - España"
+        companyUrl: "https://mobilize-fs.es/"
+        date: "Août 2018 - Déc 2022"
         info:
-          enable: false
-          content: I worked as a software developer for more than one year in Amazon.
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          enable: true
+          content: "4 ans 5 mois - Madrid, Communauté de Madrid, Espagne"
+        content: |-
+            Responsable du développement applicatif du back office bancaire de la filiale espagnole de Mobilize FS comprenant :
+            - Gestion de la maintenance correctives et évolutives de plusieurs applications. (Delivery Manager)
+            - Gestion d'équipe externe et interne, recrutement, management (Team Manager)
+            - Gestion de projet en relation avec les différentes directions mais aussi le siège parisien (Project Manager)
+            - Définition des bonnes pratiques et automatisation des processus (DevOps Leader)
+            - Analyse du besoin fonctionnel, Conception et architecture logiciel (Solution Architect) 
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+            Voici quelques uns des projets à fort impact qui ont été réalisés :
+            - KYC AML : Interface avec un organisme d'état pour identifier les administrateurs et responsables légaux d'entreprise 
+            - RISK : Implémentation de la nouvelle réglementation européenne sur la définition du défaut NDoD
+            - FINANCE : Réalisation d'une opération de titrisation en partenariat avec EDT (Europea de Titulización)
+            - TECH : Uniformisation et implémentation des API webMethods en relation avec les équipes technique du siège
 
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
+      - job: "Ingénieur d'étude et développement"
+        companyTagName: "OPEN"
+        company: "OPEN - Nantes"
+        companyUrl: "https://www.open.global/"
+        date: "Sept 2008 - Juil 2018"
         info:
-          enable: false
-        featuredLink:
-          enable: false
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          enable: true
+          content: "9 ans 11 mois - Nantes, Pays de la Loire, France"
+        content: |-
+            Consultant pour différents acteurs de la région de Nantes, mon profil a évolué de Développeur Java à Lead Tech Java en passant par Analyste fonctionnel et Formateur.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+            Durant cette période, j'ai également apporté mon savoir-faire au sein de l'agence Nantaise avec notamment la mise en place et la maintenance de la plateforme d'intégration continue pour les projets de développements ou maintenances applicatives.
 
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
-          enable: false
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+            Toujours dans le cadre des activités du centre de service Nantais, j'ai assumé le rôle de référent sécurité sur lequel j'ai été formé. J'ai aussi eu la possibilité d'être formé aux tests de performance. 
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+            Participer à la vie de l'entreprise est pour moi essentiel. J'ai toujours veillé à être moteur pour l'animation de la communauté des développeurs de l'agence en proposant ou participant aux différentes activités : Coding DOJO, Talks, After work ...
 
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+      - job: "Lead Tech Java"
+        companyTagName: "RCI"
+        company: "RCI Bank and Services - España"
+        companyUrl: "https://mobilize-fs.es/"
+        date: "2015 - 2018"
+        info:
+          enable: true
+          content: 3 ans - Nantes, Pays de la Loire, France
+        content: |-
+            Consultant pour le compte de RCI Bank and Services España (Chef d’équipe, Analyste concepteur, Développeur JAVA et PL-SQL)
+
+            Réalisation de l'application Back Office de gestion des solutions de financement des véhicules et prestations en collaboration avec les équipes Espagnoles dans le cadre de la refonte du SI.
+
+            - Participation aux réunions métiers préalable aux spécifications avec les différentes directions : Financière / Comptable / Support fonctionnel / Gestion client / Recouvrement …
+            - Spécifications générales des prestations complémentaires aux offres de Crédit / Leasing.
+            - Spécifications techniques des processus de gestion des impayés, de clôture de contrat, de recouvrement et scoring.
+            - Assistance utilisateur pour la validation des processus métier et le suivi des demandes.
+
+            Détails de l'expérience : 
+            - Analyse et corrections d'anomalies sur les procédures automatisées
+            - Développement de nouvelles fonctionnalités IHM
+            - Conception technique et encadrement des développeurs
+            - Assistance maîtrise d'oeuvre et d'ouvrage (Conseil, Chiffrage, Reporting ...)
+            - Rédaction des Dossiers de Conception Générale et Conception Technique
+            - Modélisation des données (Conceptuel et physique)
+            - Evolution d'une architecture logicielle existante pour intégrer AngularJS et des WS REST
+            - Participation aux développements (IHM, métier, Batch PL/SQL ...)
+            - Encadrement et animation d'équipe, soutien technique et fonctionnel
+            - Echange client et rédaction technique en Français, Anglais et Espagnol
+
+            Environnement technique :
+            - JAVA / J2EE / AJAX / ANGULARJS – DWR / SPRING / SPRING MVC / WEBSERVICES (SOAP & REST) / JERSEY / AXIS2 / ECLIPSE / SYBASE / JAVASCRIPT / HIBERNATE / QUALITY CENTER / JENKINS / SONAR
+
+      - job: "Ingénieur d'étude et développement Java"
+        companyTagName: "La Poste"
+        company: "Le Groupe La Poste"
+        companyUrl: "https://www.lapostegroupe.com/fr"
+        date: "2012 - 2014"
+        info:
+          enable: true
+          content: 2 ans - Nantes, Pays de la Loire, France
+        content: |-
+            Consultant pour le compte du Groupe LA POSTE (Analyste et assistant MOE/AMOA, Développeur et architecte JAVA)
+
+            Réalisation de la maintenance évolutive d'une application dédiée à la gestion des bilans des CHSCT du groupe La POSTE
+            
+            Il s'agit d'un système déjà en place mais plus adaptés aux nouvelles technologies. L'objectif est de fournir une nouvelle interface et des nouvelles fonctionnalités pour faciliter la saisie des données du bilan SST.
+            
+            Mise en place d'une nouvelle architecture Maven pour l'intégration de nouveaux écrans développés avec le Framework ZK
+            
+            Pendant cette mission, j'ai également pu apporter mes compétences techniques et fonctionnelles aux équipes internes.
+
+            Détails de l'expérience
+            - Assistance maîtrise d'oeuvre et d'ouvrage (Conseil, Chiffrage, Reporting ...)
+            - Rédaction des Dossiers de Conception Générale et Conception Technique
+            - Modélisation des données (Conceptuel et physique)
+            - Modification d'une architecture logicielle existant pour intégrer ZK, Spring, Hibernate
+            - Participation aux développements (IHM, métier, Batch PL/SQL ...)
+            - Assistance Gestion de projet, Suivi d'exploitation
+            - Encadrement et animation d'équipe, soutien technique et fonctionnel
+
+            Environnement technique :
+            - WINDOWS XP / SOLARIS / APACHE / TOMCAT / ORACLE / PL SQL / JAVA - J2EE / XML / HTML - CSS / ZK (Framework RIA) / SPRING (SECURITY) / HIBERNATE / ECLIPSE / MAVEN / SVN / ACCESSIBILITE / HUDSON / SONAR / Power AMC / JASPER REPORT
+
+      - job: "Analyste et Développeur JAVA"
+        companyTagName: "Groupama"
+        company: "Groupama"
+        companyUrl: "https://www.groupama-gan-recrute.com/nos-belles-histoires/"
+        date: "Juil 2011 - Déc 2011"
+        info:
+          enable: true
+          content: 6 mois - Rennes et périphérie, France
+        content: |-
+            Consultant pour le compte de Groupama 
+
+            Réalisation de batch de migration GED (Gestion électroniques des documents) dans le cadre du projet de migration du SI.
+
+            Détails de l'expérience
+            - Rédaction des Dossiers de Conception Technique
+            - Participation aux développements autour du Framework Spring Batch
+            - Recette technique
+            - Rédaction des Dossiers d'exploitations
+            - Correction d'anomalies et support technique
+
+            Environnement technique :
+            - WINDOWS XP / UNIX / Oracle / JAVA - JEE / XML / SPRING BATCH / ECLIPSE / CVS
+
+      - job: "Analyste et Développeur JAVA, Formateur"
+        companyTagName: "MiJu"
+        company: "Ministère de la Justice"
+        companyUrl: "http://www.justice.gouv.fr/"
+        date: "Jan 2011 - Juin 2011"
+        info:
+          enable: true
+          content: 6 mois - Nantes, Pays de la Loire, France
+        content: |-
+            Forfait de développement pour le compte du Ministère de la Justice
+
+            Développement d'une application permettant la gestion d'alertes silencieuses dans les établissements accueillant du public. Le projet est donc composé d'une partie client lourd déployée sur chaque poste et d'une partie intranet pour la gestion des postes, des utilisateurs et des statistiques.
+            
+            Formation aux futurs administrateurs de l'application répartie en 15 sessions de 5 personnes.
+
+            Détails de l'expérience
+            - Rédaction des Dossiers de Conception Technique
+            - Participation aux développements (IHM, métier, ...)
+            - Recette technique
+            - Correction d'anomalies
+            - Assistance Gestion de projet
+            - Préparer les supports et animer les séances de formation
+            - Suivi d'exploitation et assistance technique
+
+            Environnement technique :
+            - WINDOWS XP / UNIX / APACHE / TOMCAT / MySQL / JAVA - JEE / XML / HTML - JSP - CSS / STRUTS 2 - SPRING - HIBERNATE / ECLIPSE / MAVEN / SVN
 
   # Education
   education:
-    enable: false
-    # title: "Custom Name"
+    enable: true
+    title: "Formation"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Certification NEOLOAD"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "Formation professionnelle - 4 jours"
+        date: "2017"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
+          - Conception, exécution et analyse de test de performance avec l’outil NEOLOAD.
+            
+      - title: "Sécurité des applications WEB"
         school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
+          name: "Formation professionnelle - 10 jours"
+        date: "2014"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+          - Test d’intrusion (Ethical Hacking, Pentest) 
+          - Audit de sécurité du code source (OWASP, Code Review)
+            
+      - title: "Master"
+        school:
+          name: "ISTIA - Ecole d'Ingénieurs de l'Université d'Angers"
+          url: "http://www.polytech-angers.fr/fr/trouver-une-formation.html"
+        date: "2005 - 2008"
+        #GPA: "3.8 out of 5.0"
+        content: |-
+          - Master 2 IAIE : Ingénierie Automatique et Informatique d'Entreprise (Bac+5)
+          - Maitrise M²AI : Méthodes et Moyens de l'Automatisation et de l'Informatisation (Bac+4)
+          - Licence  M²AI : Méthodes et Moyens de l'Automatisation et de l'Informatisation (Bac+3)
+            
+      # - title: "Licence et Maitrise M²AI"
+      #   school:
+      #     name: "ISTIA - Ecole d'Ingénieurs de l'Université d'Angers"
+      #     url: "http://www.polytech-angers.fr/fr/trouver-une-formation.html"
+      #   date: "2005 - 2007"
+      #   #GPA: "3.9 out of 5.0"
+      #   content: |-
+      #     Méthodes et Moyens de l'Automatisation et de l'Informatisation (Bac+3 et Bac+4)
+          
+      # - title: "DUT GEII"
+      #   date: "2003 - 2005"
+      #   school:
+      #     name: "IUT - Universite de Nantes"
+      #     url: "https://iutnantes.univ-nantes.fr/formations"
+      #   content: |-
+      #     Génie Electrique et Informatique Industrielle avec l’option automatique et système (Bac+2)
 
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: false
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: false
-          url: "https://example.com"
+      # - title: "BAC STI"
+      #   date: "200 - 2003"
+      #   school:
+      #     name: "Lycée La BARONNERIE"
+      #     url: "https://staubinlasalle.fr/lycees"
+      #   content: |-
+      #       Sciences et Technique de l'Ingénieur avec l'option Electrotechnique (Bac)
 
   # Achievements
   achievements:
