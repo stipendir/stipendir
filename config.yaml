@@ -131,6 +131,7 @@ params:
       
       Contactez nous !!
     #image: /images/hero.svg
+    image: /images/stipendir-chatgpt.gif
     button:
       enable: false
       name: "Resume"

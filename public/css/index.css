@@ -113,6 +113,7 @@ header .navbar.animate {
 
 #hero p {
     margin: 20px 0px 0px;
+    max-width: 640px;
     max-width: 720px;
     opacity: 0.8;
 }
